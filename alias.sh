@@ -8,6 +8,7 @@ alias mkd='mkdir -pv'
 alias yt='youtube-dl'
 alias yta="yt -x -f bestaudio/best"
 alias ffmpeg="ffmpeg -hide_banner"
+alias s='emerge -S'
 echo "ok, now we are 50% done!"
 alias ka='killall'
 alias g='git'
