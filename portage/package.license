@@ -1,3 +1,4 @@
+# This goes in /etc/portage/
 # required by app-arch/unrar (argument)
 app-arch/unrar unRAR
 # required by net-dns/dnswalk (argument)
@@ -8,7 +9,7 @@ games-util/steam-launcher ValveSteamLicense
 x11-drivers/nvidia-drivers NVIDIA-r2
 # required by sys-kernel/linux-firmware (argument)
 sys-kernel/linux-firmware linux-fw-redistributable no-source-code
-# required to get the system to actually boot (argument)
+# required to get the system to actually boot on intel systems (argument)
 sys-firmware/intel-microcode intel-ucode
 # required by media-fonts/steamfonts (argument)
 >=media-fonts/steamfonts-1 MSttfEULA
