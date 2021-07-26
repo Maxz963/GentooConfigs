@@ -1,0 +1,18 @@
+# required by app-arch/unrar (argument)
+app-arch/unrar unRAR
+# required by net-dns/dnswalk (argument)
+net-dns/dnswalk freedist
+# required by games-util/steam-launcher (argument)
+games-util/steam-launcher ValveSteamLicense
+# required by x11-drivers/nvidia-drivers (argument)
+x11-drivers/nvidia-drivers NVIDIA-r2
+# required by sys-kernel/linux-firmware (argument)
+sys-kernel/linux-firmware linux-fw-redistributable no-source-code
+# required to get the system to actually boot (argument)
+sys-firmware/intel-microcode intel-ucode
+# required by media-fonts/steamfonts (argument)
+>=media-fonts/steamfonts-1 MSttfEULA
+# required by games-emulation/snes9x (argyment)
+games-emulation/snes9x Snes9x GPL-2 GPL-2+ LGPL-2.1 LGPL-2.1+ ISC MIT ZLIB Info-ZIP
+# required by games-fps/gzdoom (argument)
+games-fps/gzdoom ChexQuest3 DOOM-COLLECTORS-EDITION WidePix Activision 
