@@ -56,9 +56,3 @@ alias diff='diff --color=auto'
 alias ccat='highlight --out-format=ansi'
 # This alias is important. It enables the `pauseallmpv` command.
 alias mpv='mpv --input-ipc-server=/tmp/mpvsoc$(date +%s)'
-# These are things for SSH. Do not touch unless willing to possibly break something
-alias sshCreate='ssh Creative_PURPLE@192.168.0.34'
-alias sshMom='ssh linda.bott@192.168.0.144'
-alias sshmax='ssh max@192.168.0.144'
-alias Netmax='sudo sshfs -o allow_other max@192.168.0.144:/ /mnt/nfs-share/'
-
