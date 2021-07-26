@@ -13,7 +13,7 @@ echo "ok, now we are 50% done!"
 alias ka='killall'
 alias g='git'
 alias gc='git clone'
-alias trem='transmission-remote'
+#alias trem='transmission-remote'
 alias sdn='sudo shutdown -h now'
 alias p='sudo emerge'
 alias ree='sudo reboot'
@@ -25,5 +25,4 @@ alias ccat='highlight --out-format=ansi'
 # This alias is important. It enables the `pauseallmpv` command.
 alias mpv='mpv --input-ipc-server=/tmp/mpvsoc$(date +%s)'
 echo "all done! now have fun with BASH!"
-echo "to list the new alias's, type "alias" in the command prompt 
-      and your alias's will show up"
+echo "to list the new alias's, type "alias" in the command prompt and your alias's will show up"
