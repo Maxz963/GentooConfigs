@@ -1,0 +1,12 @@
+media-libs/libsdl2 alsa joystick opengl sound threads video vulkan xinerama X
+dev-cpp/gtkmm X -doc -test -wayland ABI_X86="(64) -32 (-x32)
+net-misc/openssh X alsa 
+app-emulation/qemu X -spice opengl png vnc 
+app-emulation/qemu qemu_softmmu_targets_arm qemu_softmmu_targets_x86_64 qemu_softmmu_targets_sparc
+app-emulation/qemu qemu_user_targets_x86_64
+media-sound/lmms -qt gtk fluidsynth vst
+>=x11-libs/libxkbcommon-1.3.0 X
+# required by dev-qt/qtwidgets-5.15.2::gentoo[gtk]
+# required by media-sound/lmms-1.2.2::gentoo
+# required by lmms (argument)
+>=dev-qt/qtgui-5.15.2-r1 dbus
