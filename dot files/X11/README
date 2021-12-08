@@ -1,0 +1,4 @@
+In this folder in the MAIN X11 init file, it is xinitrc
+I have it set up to start up pipewire with the x session 
+so it shouls be reletivly painless. This file goes in /etc/X11/xinit as 
+xinitrc
