@@ -15,7 +15,7 @@ games-util/steam-client-meta
 media-gfx/viewnior
 # Stuff for terminal emulation
 x11-terms/xfce4-terminal-0.8.10
-# stuff for font's, use for subtitles
+# stuff for font's, use for subtitles and so steam doesnt break!
 media-libs/freetype-2.10.4
 media-fonts/mikachan-font-ttf
 # Stuff for watching videos and listening to music
@@ -50,6 +50,8 @@ games-emulation/snes9x
 # Stuff for browsing the web (NEED)
 # Terminal:
 www-client/links
+# or you could use
+www-client/lynx
 # GUI (make sure to use the ebuild backup):
 www-client/librewolf
 # Stuff for kernel and drivers
@@ -79,7 +81,7 @@ media-libs/alsa-lib
 # Stuff for sound editing and music
 media-sound/lmms 
 media-sound/fluidsynth
-# Compile this from source as it's not in the gentoo repos yet
+# Compile this from source as it's not in the gentoo repos yet. Would be a good idea to make an ebuild for it so make installing it easier... might visit that idea soon!
 sneedacity
 # Stuff for video editing and media encoding
 media-video/ffmpeg
