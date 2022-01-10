@@ -1,6 +1,6 @@
 # Librewolf Gentoo
 
-Librewolf packaging for Gentoo.
+Librewolf packaging for Gentoo. This folder can go into /var/db/repos as librewolf
 
 ## Usage
 
